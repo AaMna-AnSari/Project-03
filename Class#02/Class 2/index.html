@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class#02</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+<div class="box">
+    <h1>Project 01</h1>
+    <h2><i>Class#02</i></h2> <br>
+
+<!-- ===============FORM=============== -->
+    <form action="" class="myform">
+
+    <label for="n1"> 01  </label>
+    <input type="number" id="num1"  class="num1" required placeholder="Enter the 1st Number">  <br>
+    
+    <label for="n2"> 02 </label>
+    <input type="number" class="num1" id="num2" required placeholder="Enter the 2nd Number">   <br>
+
+<!-- =========DROPDOWN============== -->
+    
+    <select name="operation" id="operation">
+        <option value="addition"> Addition </option>
+        <option value="subtraction"> Subtraction </option>
+        <option value="multiplication"> Multiplication </option>
+        <option value="division"> Division </option>
+        <option value="modulus"> Modulus </option>
+    </select>
+    <input type="button" value="Calculate" class="button" onclick="performOperation()"> <br>
+
+    <!-- <button value="Calculate" onclick="performOperation()">Submit</button> <br> -->
+    <!-- =====RESULT========= -->
+    <input type="text" class="num1" name="result" id="result" placeholder="Result of num1 & num2" readonly>
+    <p>'Amna' & 'WMA-94009'</p>
+</div>
+</div>
+</form>
+
+
+
+    <script src="./script.js"></script>
+</body>
+</html>
